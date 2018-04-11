@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bladejava</groupId>
+    <artifactId>blade-standard</artifactId>
+    <version>0.0.1</version>
+
+    <properties>
+        <blade-mvc.version>2.0.8-ALPHA1</blade-mvc.version>
+        <blade-template-jetbrick.version>0.1.2</blade-template-jetbrick.version>
+        <anima.version>0.1.2</anima.version>
+        <mysql.version>5.1.43</mysql.version>
+        <blade-validator.version>0.0.2</blade-validator.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.bladejava</groupId>
+            <artifactId>blade-mvc</artifactId>
+            <version>${blade-mvc.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bladejava</groupId>
+            <artifactId>blade-template-jetbrick</artifactId>
+            <version>${blade-template-jetbrick.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.biezhi</groupId>
+            <artifactId>anima</artifactId>
+            <version>${anima.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bladejava</groupId>
+            <artifactId>blade-validator</artifactId>
+            <version>${blade-validator.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
